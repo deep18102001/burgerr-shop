@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+   background-image: url(pexels-daniel-reche-1556688.jpg);
+   /* background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0)); */
+   background-size: 100% 700px;
+   width: 100%;
+   height: 700px;
+   color: white;
+  
+   
+}
+.a1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    font-size: 30px;
+}
+.a1 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.a1 li{
+    padding: 5px;
+    list-style: none;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+}
+
+.a1 button{
+    
+    padding: 10px 20px;
+    border-radius: 100px;
+    background-color: greenyellow;
+    color: white;
+
+}
+.a1 i{
+    font-size: 20px;
+}
+ .a2 button{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    background-color: greenyellow;
+    color: white;
+}
+.a2{
+    width: 500px;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-style: italic;
+}
+.a3{
+   margin-top: 10%;
+    margin-left: 5%; 
+    width: 500px;
+    background-color: rgba(128, 255, 0, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.a3 span{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+.a5{
+    width: 45px;
+    height: 45px;
+    background-color: yellow;
+}
+
+.b1 img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    
+    display: inline;
+
+}
+.b1{
+    width: 30%;
+   color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-style: italic;
+    background-color: rgb(33, 40, 40);
+   
+}
+.b1 button{
+    
+    padding: 5px 30px;
+    border-radius: 100px;
+    background-color: greenyellow;
+    color: white;
+
+}
+.b{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 40px;
+}
+.c{
+    margin-bottom: 30px;
+}
+.c1 ul{
+    display: flex;
+    justify-content: center;
+
+}
+.c1 li{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    transition: all 1s;
+}
+.c1 li:hover{
+    background-color: black;
+    color: chartreuse;
+    border-radius: 50px;
+}
+.c h1{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+.flex1 img{
+    width: 300px;
+    border-radius: 0 0 0 30px;
+
+}
+.flex1{
+    background-color: rgba(13, 15, 15, 0.972);
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    
+    
+}
+.d{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.d i{
+    border: 1px solid;
+    border-radius: 50%;
+    color: white;
+    background-color: yellow;
+    padding: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 90%;
+    gap: 20px;
+    padding-left:10%;
+}
+.btn1{
+    padding-left: 50%;
+    margin: 20px;
+}
+.btn{
+    padding: 5px 30px;
+    border-radius: 100px;
+    background-color: greenyellow;
+    color: white;
+    
+}
+@media (max-width:500px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 30% 30% ;
+    }
+    .b{
+        display: flex;
+        flex-direction: column;
+    }
+    .b1{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width:400px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 30%  ;
+    }
+     .b{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+

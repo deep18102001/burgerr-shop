@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .a{
+        display: flex;
+        flex-direction: row;
+    }
+    .b{
+        width: 100px;
+        height: 200px;
+        background-color: black;
+        gap: 10px;
+    }
+    .b1{
+        width: 100px;
+        height: 200px;
+        background-color: rgb(63, 52, 52);
+    }
+    @media (max-width:720px) {
+        .a{
+            flex-direction: column;
+        }
+        
+    }
+</style>
+<body>
+    <div class="a">
+        <div class="b"></div>
+        <div class="b1"></div>
+        <div class="b"></div>
+        <div class="b1"></div>
+        <div class="b"></div>
+        <div class="b1"></div>
+    </div>
+    
+</body>
+</html>

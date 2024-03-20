@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>animation</title>
+</head>
+<style>
+    .ani{
+        width: 100%;
+        height: 600px;
+        background-image: url(pexels-daniel-reche-1556688.jpg);
+        background-size: 100% 600px;
+        animation: identifier;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        transition: all 10s;
+
+    }
+    @keyframes identifier {
+        0%{
+            background-image: url(pexels-alleksana-7497227.jpg);
+            transition: all 2s;
+        }
+        25%{
+            background-image: url(pexels-deeana-arts-2894651.jpg);
+            transition: all 2s;
+        }
+        50%{
+            background-image: url(pexels-daniel-reche-1556688.jpg);
+            transition: all 2s;
+        }
+        100%{
+            background-image: url(pexels-alleksana-7497227.jpg);
+            transition: all 2s;
+        }
+    }
+    ul{
+        display: flex;
+       
+        list-style: none;
+    }
+    li{
+        padding: 10px;
+
+    }
+    span{
+        font-size: 40px;
+        color: white;
+        animation: hello;
+         animation: hello;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .a{
+        transition: all 1s;
+    }
+    .b{
+        transition: all 3s;
+    }
+    .c{
+        transition: all 5s;
+    }
+    .d{
+        transition: all 7s;
+    }
+    .e{
+        transition: all 9s;
+    }
+    @keyframes hello {
+        10%{
+            color: yellow;
+            
+        }
+        50%{
+            color: aqua;
+
+        }
+        100%{
+            color: transparent;
+            transition: all 5s;
+        }
+        
+    }
+
+
+
+</style>
+<body>
+    <div class="ani">
+        <div>
+            <span class="a">h</span>
+            <span class="b">e</span>
+            <span class="c">l</span>
+            <span class="d">l</span>
+            <span class="e">o</span>
+
+            <ul>
+                <li>name</li>
+                <li>contect</li>
+                <li>help</li>
+                <li>about as</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
